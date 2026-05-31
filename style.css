@@ -76,6 +76,7 @@
             height: 250px;
             align-items: center;
             justify-content: center;
+            margin-bottom: 35px;
         }
         .timer h3{ 
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
@@ -97,3 +98,9 @@
         #copa a{ background-color: #37df61; color: #09521b; }
         #copa .countdown .tempo { background:#37df61; }
         #copa .countdown .tempo span:first-child, #copa .countdown .tempo span.label { color:#09521b; }
+
+        #natal { background:#861b1b; }
+        #natal h3{ color:#ff4040 }
+        #natal a{ background-color: #ff4040; color: #861b1b; }
+        #natal .countdown .tempo { background:#ff4040; }
+        #natal .countdown .tempo span:first-child, #natal .countdown .tempo span.label { color:#861b1b; }
