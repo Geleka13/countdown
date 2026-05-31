@@ -8,7 +8,8 @@
             display:flex;
             flex-direction: column;
             align-items: center;
-            max-width: 100vw;
+            max-width: 98vw;
+            text-align: center;
         }
         h1 {
             margin: 0;
@@ -35,7 +36,7 @@
             font-weight: 600;
         }
         div{
-            max-width: 100vw;
+            max-width: 98vw;
         }
         .countdown {
         display: flex;
@@ -67,5 +68,32 @@
         font-size: 0.9rem;
         }
 
+        .timer{
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            width: 400px;
+            height: 250px;
+            align-items: center;
+            justify-content: center;
+        }
+        .timer h3{ 
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+            font-size: 30px;
+            font-weight: 500;
+            text-align: center;
+        }
+        .timer a{
+            text-decoration: none;
+            border-radius: 10px;
+            width: 110px;
+            height: 30px;
+            margin-top: 18px;
+            align-content: center;
+        }
+
+        #copa { background:#09521b; }
+        #copa h3{ color:#37df61 }
+        #copa a{ background-color: #37df61; color: #09521b; }
         #copa .countdown .tempo { background:#37df61; }
         #copa .countdown .tempo span:first-child, #copa .countdown .tempo span.label { color:#09521b; }
